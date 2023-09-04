@@ -1,9 +1,9 @@
 # MiniProjet : Surveillance Robot
 Welcome to the branch containing the source code for our MiniProjet, for the course of Embedded Systems and Robotics MICRO-315 for the spring of 2023.
 
-The main theme is around a military surveillance robot, that performs predefined patterns (in our case a square), to scan a protected zone. The robot detects objects using the ToF sensor, then proceeds to follow the object to get closer and detect its color using the camera. Once its color detected, the robot decides whether to keep following it (eventually destroying it) or leaving it alone because it judged the object safe. The robot also plays an alarm sound when it doees detect an object, as well as it lights its RGB LEDs, meaning it got out of its "camouflage" and is following the objbect to destroy it.
+The main theme is around a military surveillance robot, that performs predefined patterns (in our case a square), to scan a protected zone. The robot detects objects using the ToF sensor, then proceeds to follow the object to get closer and detect its color using the camera. Once its color detected, the robot decides whether to keep following it (eventually destroying it) or leaving it alone because it judged the object safe. The robot also plays an alarm sound when it does detect an object, as well as it lights its RGB LEDs, meaning it got out of its "camouflage" and is following the objbect to destroy it.
 
-The code made for an [EPuck2](https://www.gctronic.com/doc/index.php/e-puck2) based on its [library](https://www.gctronic.com/doc/index.php?title=e-puck2_robot_side_development), using the RTOS [ChibiOS](https://www.chibios.org/dokuwiki/doku.php). 
+The code was made for an [EPuck2](https://www.gctronic.com/doc/index.php/e-puck2) based on its [library](https://www.gctronic.com/doc/index.php?title=e-puck2_robot_side_development), using the RTOS [ChibiOS](https://www.chibios.org/dokuwiki/doku.php). 
 
 ## User Manual
 Just reset the robot, and it will initialize all the ressources and the peripherals it needs, then proceed to complete the square pattern predefined, scan, detect, follow and destroy.
